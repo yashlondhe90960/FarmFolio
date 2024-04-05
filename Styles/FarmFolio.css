@@ -1,0 +1,81 @@
+
+body {
+	background-image:url(../Images/Website/bg_2.jpg); 
+	background-repeat:no-repeat;
+	background-position: center center;
+	text-align: center;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000000;
+	opacity: .3; }
+
+.hero{
+	width: full;
+	height: 97vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#WELCOME{
+	font-size: 5vw;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 100;
+    font-family: "Amatic SC", cursive;
+    z-index: 1;
+	}
+ 
+#are{
+	font-family: "Amatic SC", cursive;
+	opacity: 100%;
+	padding-top: 1%;	
+	font-size:4vw;
+}
+#nav{
+	height: 200px;
+	background-color: rgb(0, 0, 0);
+	margin: 10px;
+}
+
+#linebreak{
+	display:block;
+	margin-bottom: 0.5em;
+}
+
+ #Farmerbutton a{
+	color: #fff;
+    align-items: center;
+    background-color: transparent;
+    font-size: 2.5vw !important;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 4px;
+    border-color: fff;
+	margin-right: 2rem;
+}
+
+#Buyerbutton a{
+	color: #fff;
+    align-items: center;
+    background-color: transparent;
+    font-size: 2.5vw !important;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 4px;
+    border-color: fff;
+	margin-left: 2rem;
+}
+
+#link {
+	color:black;
+	text-decoration: none;
+}
